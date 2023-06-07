@@ -1,0 +1,27 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app6.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "gantarro",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "20.0.0"
+  }
+}
